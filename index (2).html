@@ -32,87 +32,86 @@
 
 
     <!--CONTENUTO PRINCIPALE-->
-    <section>
-        <div class="container my-3">
-            <div class="row justify-content-center">
-                <div class="col-12">
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-12 col-lg-8">
 
-                    <!--TITOLO PRINCIPALE-->
-                    <h1>Richiesta Preventivo</h1>
-                    <p>Compila il form per richiedere un preventivo per i nostri servizi di sviluppo.</p>
+                <!--TITOLO PRINCIPALE-->
+                <h1>Richiesta Preventivo</h1>
+                <p>Compila il form per richiedere un preventivo per i nostri servizi di sviluppo.</p>
 
 
-                    <!--FORM-->
-                    <form>
-                        <div class="mb-3">
-                            <label class="form-label">Nome</label>
-                            <input type="text" class="form-control">
+                <!--FORM-->
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Nome</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Cognome</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Tipo di Lavoro</label>
+                        <select class="form-select">
+                            <option selected>Seleziona il tipo di lavoro</option>
+                            <option>Sito vetrina</option>
+                            <option>E-commerce</option>
+                            <option>Web app</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Textarea con Bootstrap 5</label>
+                        <textarea class="form-control" rows="4"></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Codice Promozionale (opzionale)</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="privacy">
+                        <label class="form-check-label" for="privacy">Accetto la Privacy Policy</label>
+                    </div>
+
+                    <div class="col-12 text-center my-3">
+                        <button type="submit" class="btn btn-primary">Calcola preventivo</button>
+                        <div class="text-center my-2">
+                            <strong>Prezzo finale</strong><br>
+                            <span style="font-size: 1.5rem;">€ 200,<small>00</small></span>
                         </div>
+                    </div>
+                </form>
+            </div>
 
-                        <div class="mb-3">
-                            <label class="form-label">Cognome</label>
-                            <input type="text" class="form-control">
-                        </div>
 
-                        <div class="mb-3">
-                            <label class="form-label">Email</label>
-                            <input type="email" class="form-control">
-                        </div>
 
-                        <div class="mb-3">
-                            <label class="form-label">Tipo di Lavoro</label>
-                            <select class="form-select">
-                                <option selected>Seleziona il tipo di lavoro</option>
-                                <option>Sito vetrina</option>
-                                <option>E-commerce</option>
-                                <option>Web app</option>
-                            </select>
-                        </div>
 
-                        <div class="mb-3">
-                            <label class="form-label">Textarea con Bootstrap 5</label>
-                            <textarea class="form-control" rows="4"></textarea>
-                        </div>
-
-                        <div class="mb-3">
-                            <label class="form-label">Codice Promozionale (opzionale)</label>
-                            <input type="text" class="form-control">
-                        </div>
-
-                        <div class="form-check mb-3">
-                            <input type="checkbox" class="form-check-input" id="privacy">
-                            <label class="form-check-label" for="privacy">Accetto la Privacy Policy</label>
-                        </div>
-
-                        <div class="col-12 text-center my-3">
-                            <button type="submit" class="btn btn-primary">Calcola preventivo</button>
-                            <div class="text-center my-2">
-                                <strong>Prezzo finale</strong><br>
-                                <span style="font-size: 1.5rem;">€ 200,<small>00</small></span>
-                            </div>
-                        </div>
-
-                    </form>
+            <!--CARD-->
+            <div class="col-12 col-lg-4 d-flex align-items-start mt-4 mt-lg-0">
+                <div class="card w-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">I nostri contatti</h5>
+                        <p class="card-text">Se hai bisogno di aiuto puoi contattarci:</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">help@boolfactory.test</li>
+                        <li class="list-group-item">+1122334455</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Help desk</a>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!--CARD-->
-
-    <div class="container d-flex justify-content-center">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">I nostri contatti</h5>
-                <p class="card-text">Se hai bisogno di aiuto puoi contattarci:</p>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">help@boolfactory.test</li>
-                <li class="list-group-item">+1122334455</li>
-            </ul>
-            <div class="card-body">
-                <a href="#" class="card-link">Help desk</a>
             </div>
         </div>
     </div>
