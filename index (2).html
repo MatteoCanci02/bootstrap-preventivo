@@ -42,7 +42,7 @@
 
 
                 <!--FORM-->
-                <form>
+                <form id="preventivo-form">
                     <div class="mb-3">
                         <label class="form-label">Nome</label>
                         <input type="text" class="form-control">
@@ -60,11 +60,8 @@
 
                     <div class="mb-3">
                         <label class="form-label">Tipo di Lavoro</label>
-                        <select class="form-select">
-                            <option selected>Seleziona il tipo di lavoro</option>
-                            <option>Sito vetrina</option>
-                            <option>E-commerce</option>
-                            <option>Web app</option>
+                        <select class="form-select" id="tipo-lavoro">
+                            
                         </select>
                     </div>
 
@@ -75,7 +72,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Codice Promozionale (opzionale)</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" id="codice-promo">
                     </div>
 
                     <div class="form-check mb-3">
@@ -87,7 +84,7 @@
                         <button type="submit" class="btn btn-primary">Calcola preventivo</button>
                         <div class="text-center my-2">
                             <strong>Prezzo finale</strong><br>
-                            <span style="font-size: 1.5rem;">€ 200,<small>00</small></span>
+                            <span style="font-size: 1.5rem;" id="prezzo-finale">€ 0,<small>00</small></span>
                         </div>
                     </div>
                 </form>
@@ -99,7 +96,7 @@
             <!--CARD-->
             <div class="col-12 col-lg-4 d-flex align-items-start mt-4 mt-lg-0">
                 <div class="card w-100">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="./img/14264-Lago-Nero-di-Cornisello-300x200.jpg" class="card-img-top" alt="immagine-prova">
                     <div class="card-body">
                         <h5 class="card-title">I nostri contatti</h5>
                         <p class="card-text">Se hai bisogno di aiuto puoi contattarci:</p>
@@ -131,6 +128,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
